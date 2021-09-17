@@ -5,11 +5,13 @@ export const AddCategory = ({setCategories}) => {
   let [inputValue, setInputValue] = useState('')
   const onChangeValue = (value) => {
     setInputValue(value.target.value)
+    console.log('llamado')
   }
   const handleSubmit = (e) => {
     e.preventDefault();
     if( inputValue.trim().length > 2) {
-      setCategories(cats => [inputValue, ...cats])
+      setCategories(cats => [inputValue, ...cats]);
+      setInputValue('');
     }
   }
   return (
