@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test para GifGrid component debe crearse gifgrid 1`] = `
+<Fragment>
+  <h3>
+    Iron Man
+  </h3>
+  <p
+    className="card"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;

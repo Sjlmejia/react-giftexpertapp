@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GiftGridItem /> debe mostrar el componente 1`] = `
+<div
+  className="card animate__animated animate__bounce"
+>
+  <img
+    alt="titulo"
+    src="es un url"
+  />
+  <p>
+    titulo
+  </p>
+</div>
+`;
